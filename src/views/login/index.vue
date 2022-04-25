@@ -165,7 +165,7 @@
 
   const onAuthCode = () => {
     formInline.isCaptcha = true;
-  }
+  };
 </script>
 
 <style lang="less" scoped>

@@ -5,7 +5,7 @@ import { PageEnum } from '@/enums/pageEnum';
 import { isObject } from './is/index';
 import { cloneDeep } from 'lodash-es';
 /**
- * render 图标
+ * 渲染 图标
  * */
 export function renderIcon(icon) {
   return () => h(NIcon, null, { default: () => h(icon) });
